@@ -78,27 +78,27 @@ WSGI_APPLICATION = 'foodrec.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER' : 'postgres',
-        'PASSWORD': 'gB1CcAAdD21AcABgeb6EBBA51FG5f5*-',
-        'HOST' : 'monorail.proxy.rlwy.net',
-        'PORT' : '33410',
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER' : 'postgres',
+#         'PASSWORD': 'gB1CcAAdD21AcABgeb6EBBA51FG5f5*-',
+#         'HOST' : 'monorail.proxy.rlwy.net',
+#         'PORT' : '33410',
        
          
-    }
-}
-
-
-# DATABASES= {
-# 'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
-
 # }
+
+
+DATABASES= {
+'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+
+}
 
 
 
